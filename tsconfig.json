@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
     /* File Layout */
-    "rootDir": "./src",       // where your TS files live
-    "outDir": "./dist",       // where compiled JS will go
+    "rootDir": "./src", // where your TS files live
+    "outDir": "./dist", // where compiled JS will go
 
     /* Environment Settings */
     "module": "NodeNext",
-    "target": "ES2022",      
+    "target": "ES2022",
     "moduleResolution": "NodeNext",
     "types": ["node"],
 
@@ -22,7 +22,7 @@
     "skipLibCheck": true,
 
     /* Misc */
-    "esModuleInterop": true   // helps with CommonJS interop
+    "esModuleInterop": true // helps with CommonJS interop
   },
   "include": ["src", "server.ts", "server.ts"]
 }
